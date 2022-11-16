@@ -28,44 +28,70 @@
 	padding: 20px;
 	margin-left: 10px;
 	margin-right: 10px;
+	
 	width: 40%;
-	display: inline-block;
+	/*display: flex;
+	flex-wrap:wrap;
+	align-content:space-between;*/
 }
 #medio4{
 	background: blue;
 	padding: 20px;
 	margin-left: 10px;
-	margin-right: 10px;
+	margin-right: 10px;	
 	/*width: 80%;
 	display: inline-block;*/
 }
-p{
+#medio5{
 	background: blue;
 	padding: 10px;
 	margin-left: 10px;
 	margin-right: 10px;
-	display: inline-block;
+	width: 100%;
+	display: flex;
+}
+p{
+	background: blue;
+	padding: 20px;
+	/*margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;*/
+	width: 90%;
+	
 }
 .padre{
 	background: aqua;
 	border:10px solid #000000;
-	display: flex;
+	/*display: flex;
 	/*padding: 20px;*/
 }
 .padre2{
 	background: #000000;
 	/*border:10px solid #000000;*/
 	display: flex;
+	justify-content: center;
 	/*padding: 20px;*/
 }
+.padre3{
+	background: #000000;
+	/*border:10px solid #000000;*/
+	display: flex;
+	justify-content: center;
+	/*padding: 20px;*/
+}
+
 .hijo{
 	background: darkcyan ;
 	margin-left: 1%;
 	margin-top: 1%;
 	margin-bottom: 1%;
 	width: 60%;
-	display: inline-block;
-	/*display: flex;*/
+	display: flex;
+	justify-content: center;
+	flex-wrap:wrap;
+	align-content:space-between;
+	
 }
 .hijo2{
 	background: brown;
@@ -73,19 +99,29 @@ p{
 	margin-right: 1%;
 	margin-top: 1%;
 	margin-bottom: 1%;
-	display: inline-block;
-	/*width: 30%;
-	/*display: flex;*/
+	display: flex;
+	justify-content: center;
+	flex-wrap:wrap;
+	/*width: 30%;*/
+	
 }
-a{
-	display: block;
-}
+
 @media(max-width:600px){
 	.padre{
 		flex-direction: column;
+		/*justify-content: center;*/
 	}
 	.padre2{
 		flex-direction: column;
+		/*justify-content: center;*/
+	}
+	.padre3{
+		flex-direction: column;
+		/*justify-content: center;*/
+	}
+	#medio5{
+		justify-content: center;
+
 	}
 }
 	
