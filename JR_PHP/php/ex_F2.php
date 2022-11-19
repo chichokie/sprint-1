@@ -6,7 +6,7 @@ $num = 0;
 
 while ($num <= 10){
     $num = par($num);
-    print ($num);
+    //print ($num);
     echo $num;
 }
 

@@ -3,7 +3,8 @@
 <body>
 <?php
 
-$num = 0;
+$num_final = 10;
+$num = -2;
 
 while ($num <= $num_final){
     $num = par($num);

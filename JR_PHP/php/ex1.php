@@ -12,7 +12,7 @@ echo $nombre."<br>";
 echo $numero."<br/>";
 echo $pi."<br/>";
 echo $casado."<br/>";
-
+//no sale
 ?>
 
 </body>
