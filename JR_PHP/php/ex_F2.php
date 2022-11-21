@@ -4,10 +4,10 @@
 <?php
 $num = 0;
 
-while ($num <= 10){
+while ($num <= 8){
     $num = par($num);
     //print ($num);
-    echo $num;
+    echo $num."<br>\n";
 }
 
 
@@ -16,8 +16,6 @@ function par($num){
     return $num;
 
 }
-
-
 ?>
 
 </body>

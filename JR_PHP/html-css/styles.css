@@ -21,6 +21,8 @@
 	padding: 20px;
 	margin-left: 10px;
 	margin-right: 10px;
+	width: 95%;
+	display: flex;
 	/*display: inline-block;*/
 }
 .medio3{
@@ -28,11 +30,10 @@
 	padding: 20px;
 	margin-left: 10px;
 	margin-right: 10px;
-	
 	width: 40%;
-	/*display: flex;
+	display: flex;
 	flex-wrap:wrap;
-	align-content:space-between;*/
+	align-content:space-between;
 }
 #medio4{
 	background: blue;
@@ -58,19 +59,18 @@ p{
 	margin-top: 10px;
 	margin-bottom: 10px;*/
 	width: 90%;
-	
 }
 .padre{
 	background: aqua;
 	border:10px solid #000000;
-	/*display: flex;
+	display: flex;
 	/*padding: 20px;*/
 }
 .padre2{
 	background: #000000;
 	/*border:10px solid #000000;*/
 	display: flex;
-	justify-content: center;
+	justify-content:center;
 	/*padding: 20px;*/
 }
 .padre3{
@@ -91,7 +91,6 @@ p{
 	justify-content: center;
 	flex-wrap:wrap;
 	align-content:space-between;
-	
 }
 .hijo2{
 	background: brown;
@@ -102,10 +101,11 @@ p{
 	display: flex;
 	justify-content: center;
 	flex-wrap:wrap;
-	/*width: 30%;*/
-	
 }
-
+#dif{
+	margin-bottom: 200px;
+	margin-top: 10px;
+}
 @media(max-width:600px){
 	.padre{
 		flex-direction: column;
@@ -120,6 +120,10 @@ p{
 		/*justify-content: center;*/
 	}
 	#medio5{
+		justify-content: center;
+
+	}
+	#medio2{
 		justify-content: center;
 
 	}

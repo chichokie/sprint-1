@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
 <body>
+<form action="ex_F5.php" method="post">
+<input type="text" name="number">
+<input type="submit" value="Enviar">
+</form>
+
 <?php
 //$nota = readline("ingrese su nota");
-
-echo "ingresa tu nota";
-fscanf(STDIN,"%s",$nota);
-
+//fscanf(STDIN,"%s",$nota);
 //$grado = grau($grado);
-
 //echo $grado;
-
-function grau($nota){
-    
+echo "ingresa tu nota";
+$nota = $_POST['number'];
+function grau($nota){  
 if ($nota >= 60){
    
     echo "Primera divisió";
@@ -26,7 +27,7 @@ if ($nota >= 60){
 else{
         echo " Reprovaràs ";
 }
-
+}
 ?>
 
 </body>
