@@ -12,7 +12,7 @@ echo "ingresa el numero <br>\n";
 $num_final = $_POST['number'];
 $num = 0;
 
-while ($num <= $num_final){
+while ($num <= $num_final-2){
     $num = par($num);
     //print ($num);
     echo $num."\n";

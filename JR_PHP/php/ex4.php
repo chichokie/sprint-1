@@ -22,6 +22,14 @@ echo  $n*$m."<br>";
 echo  $n/$m."<br>";
 echo  $n%$m."<br>";
 
+echo  $x*2."<br>";
+echo  $y*2."<br>";
+echo  $n*2."<br>";
+echo  $m*2."<br>";
+
+
+echo  $x*$y*$n*$m."<br>";
+
 ?>
 
 </body>

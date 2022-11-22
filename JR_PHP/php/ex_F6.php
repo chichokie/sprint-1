@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <body>
 <form action="ex_F6.php" method="post">
@@ -6,17 +6,16 @@
 <input type="submit" value="Enviar">
 </form>
 <?php
-echo "Quieres saber si te muerden? ";
 //$x = readline("Quieres saber si te muerden? " true,false);
 echo "Quieres saber si te muerden? ";
 $x = $_POST['number'];
 $muerde = 0;
-if ($x == true):
-    isBitten(0,1);
+if ($x == "si"):
+    isBitten();
 endif; 
 
 function isBitten(){
-   $muerde = rand();
+   $muerde = rand(0,1);
    return $muerde;
 
 }

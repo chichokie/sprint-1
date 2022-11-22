@@ -3,9 +3,9 @@
 <html>
 <body>
 <?php
-$nombre = "José Ramón ";
+NOMBRE = "José Ramón ";
 
-echo "<h1> $nombre </h1>";
+echo "<h1> NOMBRE </h1>";
 
 ?>
 
