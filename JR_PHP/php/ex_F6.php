@@ -10,19 +10,21 @@
 echo "Quieres saber si te muerden? ";
 $x = $_POST['number'];
 $muerde = 0;
-if ($x == "si"):
-    isBitten();
-endif; 
+if ($x == "si"){
+   $muerde = isBitten();
+}
+if ($muerde == 1) {
+    echo"te está mordiendo";
+}
+else{
+    echo"No te está mordiendo";
+ }
 
 function isBitten(){
-   $muerde = rand(0,1);
+   $muerde = mt_rand(0,1);
    return $muerde;
-
 }
-
 //print ("t".$e);
-
 ?>
-
 </body>
 </html>
