@@ -1,44 +1,42 @@
 <?php
 class Shape{
 
-    public $anxo ;
+    public $lado ;
     public $alto ;
    
-   /public function __construct($anxo, $alto)
+   public function __construct($lado, $alto)
     {
-        $this->anxo = $anxo;
+        $this->lado = $lado;
         $this->alto = $alto;
+    }
+    public function area(){
+        
+        /*$ap = ($lado/2)/tan(360/$num_lados/2)
+        $sup = ($lado * $ap)/2 * $num_tri;
+        $sup = $lado * $num_lados * $ap /2;*/
+      
     }
     /*
     public function getanxo(){
-		return $this -> anxo;
+		return $this -> lado;
 	}
 	public function getalto(){
 		return $this -> alto;
 	}
 	//setters
-	public function setanxo($anxo){
-		$this->anxo=$anxo;
+	public function setanxo($lado){
+		$this->lado=$lado;
 	}
 
 	public function setalto($alto){
-		$this->alto=$anxo;
-	}*/
+		$this->alto=$lado;
+	}
 
-    public function initialize($anxo,$alto){  
+    public function initialize($lado,$alto){  
        
-        $this->anxo = $anxo;
+        $this->lado = $lado;
         $this->alto = $alto;
-    }   
+    }   */
 
-    public function print(){
-        global $anxo, $alto;
-        if ($alto > 600){
-        echo $anxo."Has";
-        }
-        else{
-        echo $anxo."No ";
-        }
-    }
 }
 ?>

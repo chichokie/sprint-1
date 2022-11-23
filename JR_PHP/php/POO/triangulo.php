@@ -1,44 +1,19 @@
 <?php
-class Triangulo extends {
+class Triangulo extends Shape{
 
-    public $anxo ;
-    public $alto ;
-   
-   /public function __construct($anxo, $alto)
-    {
-        $this->anxo = $anxo;
-        $this->alto = $alto;
+    public $sup ;
+
+   public function __construct($lado, $alto){
+
+        Shape::__construct ($lado,$alto);
+        //$this->sup = $sup;
     }
-    /*
-    public function getanxo(){
-		return $this -> anxo;
-	}
-	public function getalto(){
-		return $this -> alto;
-	}
-	//setters
-	public function setanxo($anxo){
-		$this->anxo=$anxo;
-	}
-
-	public function setalto($alto){
-		$this->alto=$anxo;
-	}*/
-
-    public function initialize($anxo,$alto){  
-       
-        $this->anxo = $anxo;
-        $this->alto = $alto;
-    }   
-
-    public function print(){
-        global $anxo, $alto;
-        if ($alto > 600){
-        echo $anxo."Has";
-        }
-        else{
-        echo $anxo."No ";
-        }
+    
+    public function area(){
+        //global $lado, $alto;
+        $this -> sup =  $this -> lado * $this -> alto /2;
+        echo $this -> sup;
     }
+    
 }
 ?>

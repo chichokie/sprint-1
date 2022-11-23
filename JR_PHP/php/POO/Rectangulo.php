@@ -1,44 +1,41 @@
 <?php
-class Shape{
+class Rectangulo extends Shape{
 
-    public $anxo ;
-    public $alto ;
-   
-   /public function __construct($anxo, $alto)
+    public $sup ;
+
+   public function __construct($lado, $alto,)
     {
-        $this->anxo = $anxo;
-        $this->alto = $alto;
+        Shape::__construct ($lado,$alto);
+        //$this->sup = $sup;
+    }
+
+    public function area(){
+        //global $lado, $alto;
+        $this -> sup =  $this ->lado * $this -> alto;
+        echo $this -> sup;
     }
     /*
-    public function getanxo(){
-		return $this -> anxo;
+    public function getlado(){
+		return $this -> lado;
 	}
 	public function getalto(){
 		return $this -> alto;
 	}
 	//setters
-	public function setanxo($anxo){
-		$this->anxo=$anxo;
+	public function setlado($lado){
+		$this->lado=$lado;
 	}
 
 	public function setalto($alto){
-		$this->alto=$anxo;
-	}*/
+		$this->alto=$lado;
+	}
 
-    public function initialize($anxo,$alto){  
+    public function initialize($lado,$alto){  
        
-        $this->anxo = $anxo;
+        $this->lado = $lado;
         $this->alto = $alto;
-    }   
+    }   */
 
-    public function print(){
-        global $anxo, $alto;
-        if ($alto > 600){
-        echo $anxo."Has";
-        }
-        else{
-        echo $anxo."No ";
-        }
-    }
+    
 }
 ?>
