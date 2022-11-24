@@ -1,15 +1,13 @@
 
 body{
 	max-width: 1200px;
-
 }
-
 .col{
 	background: gold;
 	padding: 20px;
 	width: 10%;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 1%;
+	margin-right: 1%;
 	display: inline-block;
 }
 #medio{
@@ -19,23 +17,22 @@ body{
 	margin-left: 10px;
 	margin-right: 10px;
 	display: inline-block;
-
 }
 #medio2{
 	background: blue;
-	padding: 20px;
+	padding: 10px;
 	margin-left: 10px;
 	margin-right: 10px;
-	width: 95%;
+	width: 100%;
 	display: flex;
 	/*display: inline-block;*/
 }
 .medio3{
 	background: blue;
 	padding: 20px;
-	margin-left: 5px;
-	margin-right: 5px;
-	width: 40%;
+	margin-left: 1%;
+	margin-right: 1%;
+	width: 43%;
 	display: flex;
 	flex-wrap:wrap;
 	align-content:space-between;
@@ -43,10 +40,10 @@ body{
 #medio4{
 	background: blue;
 	padding: 20px;
-	margin-left: 10px;
-	margin-right: 10px;	
-	/*width: 80%;
-	display: inline-block;*/
+	margin-left: 1%;
+	margin-right: 1%;	
+	width: 95%;
+	/*display: inline-block;*/
 }
 #medio5{
 	background: blue;
@@ -58,7 +55,7 @@ body{
 }
 p{
 	background: blue;
-	padding: 20px;
+	padding: 5px;
 	/*margin-left: 10px;
 	margin-right: 10px;
 	margin-top: 10px;
@@ -89,11 +86,12 @@ p{
 	/*padding: 20px;*/
 }
 .hijo{
-	background: darkcyan ;
+	background: darkcyan;
 	margin-left: 1%;
+	/*margin-right: 1%;*/
 	margin-top: 1%;
 	margin-bottom: 1%;
-	width: 800px;
+	width: 840px;
 	display: flex;
 	justify-content: center;
 	flex-wrap:wrap;
@@ -101,9 +99,9 @@ p{
 }
 .hijo2{
 	background: brown;
-	width: 400px;
+	width: 350px;
 	margin-left: 1%;
-	margin-right: 1%;
+	margin-right: 10px;
 	margin-top: 1%;
 	margin-bottom: 1%;
 	display: flex;
@@ -123,23 +121,18 @@ p{
 		flex-direction: column;
 		/*justify-content: center;*/
 	}
-	.padre3{
-		flex-direction: column;
-		/*justify-content: center;*/
-	}
-	
 	.hijo{
 		flex-direction: column;
 		width: 100%;
 		/*justify-content: center;*/
 	}
-	#medio5{
+	/*#medio5{
 		justify-content: center;
 		padding: 10px;
 		width: 100%;
 		margin-left: 10px;
 		margin-right: 10px;
-	}
+	}*/
 	#medio2{
 		justify-content: center;
 		padding: 10px;
