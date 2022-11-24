@@ -3,18 +3,20 @@
 <body>
 <?php
 $num = 0;
-
-while ($num <= 8){
+par($num);
+/*while ($num <= 8){
     $num = par($num);
     //print ($num);
     echo $num."<br>\n";
-}
-
+}*/
 
 function par($num){
-    $num = $num +2;
-    return $num;
-
+    while ($num <= 8){
+        $num = $num +2;        
+        echo $num."<br>\n";
+        //return $num;
+    }
+    
 }
 ?>
 
