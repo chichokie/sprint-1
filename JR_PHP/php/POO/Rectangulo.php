@@ -3,12 +3,6 @@ class Rectangulo extends Shape{
 
     public $sup ;
 
-   public function __construct($lado, $alto,)
-    {
-        Shape::__construct ($lado,$alto);
-        //$this->sup = $sup;
-    }
-
     public function area(){
         //global $lado, $alto;
         $this -> sup =  $this ->lado * $this -> alto;
@@ -35,7 +29,5 @@ class Rectangulo extends Shape{
         $this->lado = $lado;
         $this->alto = $alto;
     }   */
-
-    
 }
 ?>
