@@ -88,13 +88,12 @@ p{
 	justify-content: center;
 	/*padding: 20px;*/
 }
-
 .hijo{
 	background: darkcyan ;
 	margin-left: 1%;
 	margin-top: 1%;
 	margin-bottom: 1%;
-	width: 60%;
+	width: 800px;
 	display: flex;
 	justify-content: center;
 	flex-wrap:wrap;
@@ -102,6 +101,7 @@ p{
 }
 .hijo2{
 	background: brown;
+	width: 400px;
 	margin-left: 1%;
 	margin-right: 1%;
 	margin-top: 1%;
@@ -145,7 +145,7 @@ p{
 		padding: 10px;
 		width: 90%;
 	}
-	#medio3{
+	/*#medio3{
 		justify-content: center;
 		width: 90%;
 	}

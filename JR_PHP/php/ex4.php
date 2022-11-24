@@ -22,10 +22,12 @@ echo  $n*$m."<br>";
 echo  $n/$m."<br>";
 echo  $n%$m."<br>";
 
-echo  pow($x,2)."<br>";
-echo  pow($y,2)."<br>";
-echo  pow($n,2)."<br>";
-echo  pow($m,2)."<br>";
+echo  $x*2 .'<br>';
+echo  $y*2 .'<br>';
+echo  $n*2 .'<br>';
+echo  $m*2 .'<br>';
+
+
 
 echo  $x*$y*$n*$m."<br>";
 
