@@ -3,15 +3,11 @@
 <body>
 <?php
 
-$num = -2;
-par($num);
+par();
 
-/*while ($num <= $num_final){
-    $num = par($num);
-    echo $num."\n";
-}*/
-function par($num,$num_final = 8){
+function par($num_final = 8){
 
+    $num = -2;
     while ($num <= $num_final){
         $num = $num +2;
         echo $num."\n";

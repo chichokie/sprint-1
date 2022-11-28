@@ -7,10 +7,11 @@
 </form>
 <?php
 //$x = readline("Quieres saber si te muerden? " true,false);
-echo "Quieres saber si te muerden? ";
-$x = $_POST['number'];
+//echo "Quieres saber si te muerden? ";
+//$x = $_POST['number'];
+$x = 1;
 $muerde = 0;
-if ($x == "si"){
+if ($x == 1){
    $muerde = isBitten();
 }
 if ($muerde == 1) {

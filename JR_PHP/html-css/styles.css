@@ -75,6 +75,7 @@ p{
 	max-width: 1200px;
 	display: flex;
 	justify-content:center;
+	flex-wrap:nowrap;
 	/*padding: 20px;*/
 }
 .padre3{
@@ -91,7 +92,7 @@ p{
 	/*margin-right: 1%;*/
 	margin-top: 1%;
 	margin-bottom: 1%;
-	width: 840px;
+	width: 70%;
 	display: flex;
 	justify-content: center;
 	flex-wrap:wrap;
@@ -99,7 +100,7 @@ p{
 }
 .hijo2{
 	background: brown;
-	width: 350px;
+	width: 29%;
 	margin-left: 1%;
 	margin-right: 10px;
 	margin-top: 1%;
@@ -112,39 +113,101 @@ p{
 	margin-bottom: 200px;
 	margin-top: 10px;
 }
-@media(max-width:600px){
-	.padre{
+
+@media(max-width:900px){
+	/*.padre{
 		flex-direction: column;
-		/*justify-content: center;*/
-	}
+		/*justify-content: center;
+	}*/
 	.padre2{
 		flex-direction: column;
 		/*justify-content: center;*/
 	}
 	.hijo{
 		flex-direction: column;
-		width: 100%;
+		width: 98%;
 		/*justify-content: center;*/
 	}
-	/*#medio5{
-		justify-content: center;
-		padding: 10px;
-		width: 100%;
-		margin-left: 10px;
+	.hijo2{
+		width: 98%;
+		margin-left: 1%;
 		margin-right: 10px;
-	}*/
-	#medio2{
+		margin-top: 1%;
+		/*margin-bottom: 1%;*/
+		display: flex;
 		justify-content: center;
-		padding: 10px;
-		width: 90%;
+		flex-wrap:wrap;
 	}
-	/*#medio3{
-		justify-content: center;
-		width: 90%;
+	.medio3{
+		background: blue;
+		padding: 20px;
+		margin-left: 1%;
+		margin-right: 1%;
+		width: 93%;
+		display: flex;
+		flex-wrap:wrap;
+		align-content:space-between;
 	}
-	/*#medio4{
-		justify-content: center;
+	#medio4{
+		background: blue;
+		padding: 20px;
+		margin-left: 1%;
+		margin-right: 1%;	
+		width: 93%;
+		/*display: inline-block;*/
+	}
+	p{
+		background: blue;
+		padding: 20px;
+		width: 93%;
+	}
+	#dif{
+		margin-bottom: 20px;
+		margin-top: 10px;
+	}
 
-	}*/
+
 }
+
+	@media(max-width:600px){
+		.padre{
+			flex-direction: column;
+			/*justify-content: center;*/
+		}
+		.col{
+			padding: 20px;
+			width: 90%;
+			margin-left: 1%;
+			margin-right: 1%;
+			display: inline-block;
+		}
+		#medio{
+			padding: 20px;
+			width: 90%;
+			margin-left: 1%;
+			margin-right: 1%;
+			display: inline-block;
+		}
+		.padre2{
+			flex-direction: column;	
+		}
+		.hijo{
+			flex-direction: column;
+			width: 100%;
+		}
+		#medio2{
+			justify-content: center;
+			padding: 10px;
+			width: 90%;
+		}
+		p{
+			padding: 20px;
+			width: 93%;
+		}
+		#dif{
+			margin-bottom: 20px;
+			margin-top: 10px;
+		}
+}
+
 	
