@@ -27,6 +27,7 @@ echo  $y*2 .'<br>';
 echo  $n*2 .'<br>';
 echo  $m*2 .'<br>';
 
+echo  $x+$y+$n+$m."<br>";
 
 
 echo  $x*$y*$n*$m."<br>";
