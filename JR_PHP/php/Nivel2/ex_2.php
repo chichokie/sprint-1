@@ -31,7 +31,7 @@ $array = array($cadena2,$cadena3,$cadena1);
 
 foreach($array as $array){
 
-    echo $array."\n";
+    echo $array;
    
 }
 
