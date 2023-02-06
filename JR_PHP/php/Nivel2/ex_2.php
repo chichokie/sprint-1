@@ -34,6 +34,8 @@ foreach($array as $array){
     echo $array."\n";
    
 }
+
+// print_r(str_split(,));
 /*
 //$array1 = explode("",$cadena);
 $array2 = $array;
