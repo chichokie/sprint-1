@@ -10,11 +10,36 @@ echo "ingresa número <br>\n";
 
 $num = $_POST['num']; 
 
-$resultado = criba($num);
+//$resultado = criba($num);
+//print ($resultado);
 
-print ($resultado);
+for ($i=2; $i<=$num; $i++){
+    $lista[$i]=true;
+}
+
+for ($n=1; $n<=$num; $n++){
+
+    if ($lista[$n]){
+
+        for ($i=$n*$n; $i<$num;$i+=$n){
+
+            $lista[$i]=false;
+        }
+    }
+}
+
+echo "Primos: ";
+
+for ($n = 2; $n < $num; $n++){
+
+    if ($lista[$n]){
+
+        echo $n." ";
+    }
+}
 
 
+/*
 function criba($num){
 
     $string = "":
@@ -71,7 +96,7 @@ function criba($num){
 if ($num1 == $num2){
     $resultado = $resultado*2;
 }
-
+*/
 
 ?>
 </body>
